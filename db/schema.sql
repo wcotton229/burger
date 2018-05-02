@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS burger_db;
+
+USE DATABASE burger_db;
+
+CREATE TABLE IF NOT EXISTS burgers(
+    id INT NOT NULL AUTO_INCREMENT,
+	burger_name VARCHAR (100) NOT NULL,
+    devoured BOOLEAN,
+	PRIMARY KEY (id)
+);
